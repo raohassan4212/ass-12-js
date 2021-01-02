@@ -61,5 +61,28 @@
 // // task: 8 
 // document.write("Yah! I can write HTML content through JavaScript");
 
-// task: 9
-alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
+// // task: 9
+// alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
+
+
+
+//                                         chapter: 03
+
+// // task: 1
+// var age = 15;
+// alert("I am " + age + " year old");
+
+// // task: 2 
+// var visited = 14;
+// alert("You have visited this site " + visited + " times");
+
+// // task: 3
+// var birthYear = 1990 ;
+// document.write("My birth year is " + birthYear + "<br/> Data type of my declared variable is number");
+
+// task: 4
+var visiterName = "John Doe";
+var product = "T-shirt";
+var productQuantity = 5;
+document.write(visiterName + " ordered " + productQuantity + " " + product + "(s) on XYZ Clothing store");
+
