@@ -80,9 +80,39 @@
 // var birthYear = 1990 ;
 // document.write("My birth year is " + birthYear + "<br/> Data type of my declared variable is number");
 
-// task: 4
-var visiterName = "John Doe";
-var product = "T-shirt";
-var productQuantity = 5;
-document.write(visiterName + " ordered " + productQuantity + " " + product + "(s) on XYZ Clothing store");
+// // task: 4
+// var visiterName = "John Doe";
+// var product = "T-shirt";
+// var productQuantity = 5;
+// document.write(visiterName + " ordered " + productQuantity + " " + product + "(s) on XYZ Clothing store");
 
+
+
+//                                      chapter: 4
+
+// // task: 1
+// var variable1 = "hello world_1", variable2 = "hello world_2", variable3 = "hello world_3";
+
+// // task: 2
+
+// // legal
+// var name;
+// var myName;
+// var myFullName;
+// var $name;
+// var name1;
+
+// // illegal
+// var !name;
+// var @name;
+// var 1name;
+// var #name;
+// var ^name
+
+// task; 3
+var heading = "Rules for naming JS variable";
+var b = "Variable names can only contain, numbers, $ and _, For example: $my_1stVariable";
+var c = "Variable must begin with a letter, $ or _. For example : $name, _name or name";
+var d = "Variable name are case sensitive";
+var e = "Variable should not be JS Keyword"
+document.write(heading + "<br>"  + "<br>" + "<br>"+ b + "<br>" + c + "<br>" + d + "<br>" + e)
