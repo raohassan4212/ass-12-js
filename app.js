@@ -318,7 +318,7 @@
 //     document.write("table of  "+ tab+"<br>");
 //     document.write(tab+ "* 1 =" +n1 +"<br>"+ tab+ "* 2 =" +n2 +"<br>"+ tab+ "* 3 =" +n3 +"<br>"+ tab+ "* 4 =" +n4 +"<br>"+ tab+ "* 5 =" +n5 +"<br>"+
 //     tab+ "* 6 =" +n6 +"<br>"+ tab+ "* 7 =" +n7 +"<br>"+ tab+ "* 8 =" +n8 +"<br>"+ tab+ "* 9 =" +n9 +"<br>"+ tab+ "* 10 =" +n10 );
-    
+
 // }
 
 
@@ -377,9 +377,9 @@
 // if (++a === 5){
 //      alert("given condition for variable a is true");
 //      } 
- 
+
 // var b = 82; if (b++ === 83){ alert("given condition for variable b is true"); } 
- 
+
 // var c = 12; if (c++ === 13){ alert("condition 1 is true"); } if (c === 13){ alert("condition 2 is true"); } if (++c < 14){ alert("condition 3 is true"); } if(c === 14){ alert("condition 4 is true"); } 
 
 // // task: 6
@@ -718,3 +718,191 @@
 //     document.write(l+",");
 // }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+//                                 ASSIGNMENT: 2 of JS
+//                                 
+
+
+
+// // task                                
+
+// var userInput = prompt("Enter some thing");
+// document.write("User input: " + userInput + "<br>");
+// userInput = userInput.toUpperCase();
+// document.write("Upper case: " + userInput);
+
+
+// // task                              
+
+// var userInput = "javascript";
+// document.write("User input: " + userInput + "<br>");
+// var firstChar = userInput.slice(0,1);
+// firstChar = firstChar.toUpperCase();
+// var otherChar = userInput.slice(1);
+// otherChar = otherChar.toLowerCase();
+// var capitalize = firstChar + otherChar;
+// document.write("Title case: " + capitalize);
+
+
+// // task                             
+
+// var favoritePhone = "Samsung";
+// var length = favoritePhone.length;
+// document.write("My favorite phone is: " + favoritePhone + "<br>" + "Length of string: " + length);
+
+
+// // task                             
+
+// var myString = prompt("Enter Something");
+// document.write('lastChar: ', myString.charAt(myString.length - 1));
+
+
+
+
+
+// // task                             
+
+// var x = "Pakistani";
+// var index = x.indexOf("n");
+// document.write("String: " + x + "<br>" + "Index of 'n' is: " + index);
+
+
+// // task
+
+// var userName = prompt("Enter your username");
+// var len = userName.length;
+
+// var n1 = String.fromCharCode(64);
+// var n2 = String.fromCharCode(33);
+// var n3 = String.fromCharCode(44);
+// var n4 = String.fromCharCode(46);
+
+// for (var i = 0; i < len; i++) {
+
+//     if (userName.charAt(i) == n1 || userName.charAt(i) == n2 || userName.charAt(i) == n3 || userName.charAt(i) == n4) {
+//         alert("Please enter a valid username");
+//     }
+// }
+
+
+// // task
+
+// var str = "The quick brown fox jumps over the lazy dog.";
+// var num = str.indexOf("the");
+// document.write("The number of occurrence 'the' in str is: " + num);
+
+
+// // task
+
+// var str = "Pakistani";
+// var char = str.charAt(3);
+// document.write("Str: " + str + "<br>" + "The word at the 3<sup>rd</sup> index of str is: " + char);
+
+
+// // task                                  
+
+// var city = "Hyderabad";
+// document.write("City: " + city + "<br>");
+// city = city.replace("Hyder","Islam");
+// document.write("After replacement: " + city);
+
+
+// // task                               
+
+// var message = "Ali and Sami are best friend. They play circket and football together.";
+// message = message.replace(/and/g, "&");
+// document.write(message);
+
+
+// // task
+
+// var num = 3.45214;
+// document.write("Number: " + num + "<br>" + "Round off value of the number is : " + Math.round(num) +
+//                 "<br>" + "Floor value of the number is: " + Math.floor(num) + "<br>" + 
+//                 "Ceil value of the number is: " + Math.ceil(num));
+
+
+// // task
+
+// var num = -2.678;
+// document.write("Number: " + num + "<br>" + "Round off value of the number is : " + Math.round(num) +
+//                "<br>" + "Floor value of the number is: " + Math.floor(num) + "<br>" + 
+//                "Ceil value of the number is: " + Math.ceil(num));
+
+
+// // task 
+
+// var randomNum = Math.random()*6;
+// randomNum = Math.ceil(randomNum);
+// document.write("Dice using Random: " + randomNum);
+
+
+// // task
+
+// var num = Math.random()*2;
+// num = Math.ceil(num);
+
+// if (num == 1) {
+//     alert("Head");
+// }
+// else {
+//     alert("Tails");
+// }
+
+
+// // task
+
+// var num = Math.random()*10;
+// num = Math.ceil(num);
+
+// var userInput = prompt("Enter guess between 1 to 10");
+
+// if (userInput == num) {
+//     alert("Congratulation your guess is correct");
+// }
+// else {
+//     alert("Better luck next time");
+// }
+
+
+// // task
+
+// var weight = prompt("Enter your weight");
+// document.write("String: " + weight + "Kgs <br>" + "Decimal: " + parseFloat(weight+.2) + "Kgs <br>" +
+//                "Number: " + weight);
+
+
+// // task
+
+// var num = "472";
+// document.write("Value: " + num + "<br>" + "Type: " + typeof(num) + "<br>");
+// num = Number(num);
+// document.write("Value: " + num + "<br>" + "Type: " + typeof(num));
+
+
+// // task
+
+// var num = 35.36;
+// document.write("Number: " + num + "<br>");
+// num = num.toString();
+// num = num.replace(".","")
+// document.write("Result: " + num);
+
+
+// // task
+
+// var percentage = 30/45*100;
+// percentage = percentage.toFixed(2);
+// document.write(percentage);
