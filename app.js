@@ -906,3 +906,491 @@
 // var percentage = 30/45*100;
 // percentage = percentage.toFixed(2);
 // document.write(percentage);
+
+
+
+
+
+
+
+
+
+
+
+
+//                                        Assignnment: 3 of JS
+
+
+
+
+// // task
+
+// var currentDataAndTime =  new Date();
+// document.write(currentDataAndTime);
+
+
+// // task
+
+// var date = new Date();
+// var monthNum = date.getMonth();
+// var months = ["January","February","March","Apirl","June","July","August","September","October","November","December"];
+// console.log(monthNum)
+
+//     if (monthNum == 0) {
+        
+//         alert("Current Month: " + months[0]);
+//     }
+//     else if (monthNum == 1) {
+//         alert("Current Month: " + months[1]);
+//     }
+//     else if (monthNum == 2) {
+//         alert("Current Month: " + months[2]);
+//     }
+//     else if (monthNum == 3) {
+//         alert("Current Month: " + months[3]);
+//     }
+//     else if (monthNum == 4) {
+//         alert("Current Month: " + months[4]);
+//     }
+//     else if (monthNum == 5) {
+//         alert("Current Month: " + months[5]);
+//     }
+//     else if (monthNum == 6) {
+//         alert("Current Month: " + months[6]);
+//     }
+//     else if (monthNum == 7) {
+//         alert("Current Month: " + months[7]);
+//     }
+//     else if (monthNum == 8) {
+//         alert("Current Month: " + months[8]);
+//     }
+//     else if (monthNum == 9) {
+//         alert("Current Month: " + months[9]);
+//     }
+//     else if (monthNum == 10) {
+//         alert("Current Month: " + months[10]);
+//     }
+//     else if (monthNum == 11) {
+//         alert("Current Month: " + months[11]);
+//     }
+
+
+// // task
+
+// var date = new Date();
+// var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+// var currentDay = date.getDay();
+// console.log(currentDay);
+
+
+//     if (currentDay == 0) {
+//         let d0 = days[0].slice(0,3);
+        
+//         alert(d0);
+        
+//     }
+//     else if (currentDay == 1) {
+//         let d1 = days[1].slice(0,3);
+//         alert(d1);
+//     }
+//     else if (currentDay == 2) {
+//         let d1 = days[2].slice(0,3);
+//         alert(d1);
+//     }
+//     else if (currentDay == 3) {
+//         let d1 = days[3].slice(0,3);
+//         alert(d1);
+//     }
+//     else if (currentDay == 4) {
+//         let d1 = days[4].slice(0,3);
+//         alert(d1);
+//     }
+//     else if (currentDay == 5) {
+//         let d1 = days[5].slice(0,3);
+//         alert(d1);
+//     }
+//     else if (currentDay == 6) {
+//         let d1 = days[6].slice(0,3);
+//         alert(d1);
+//     }
+
+
+// // task
+
+// var date = new Date();
+// var days = date.getDay();
+
+// if (days == 0 || days == 6) {
+//     alert("It's fun day");
+// }
+
+
+// // task
+
+// var date = new Date();
+// var dates = date.getDate();
+// console.log(dates);
+
+// if (dates < 16) {
+//     alert("First fifteen days of the month");
+// }
+// else {
+//     alert("Last days of the month");
+// }
+
+
+// // task
+
+// var time = new Date();
+// document.write("Current Date : " + time + "<br>");
+// document.write("Elapsed milliSecond Since January 1, 1970 : " + time.getTime() + "<br>");
+// document.write("Elapsed minuites Since January 1, 1970 : " + (time.getTime() / (1000 * 3600)));
+
+
+// // task
+
+// var time = new Date();
+// var find = time.getHours();
+// if (find >= 0 && find <= 12) {
+//     document.write("Its AM")
+// }
+// else{
+//     document.write("Its PM");
+// }
+
+
+// // task
+
+// var laterDate = new Date("December 31, 2020");
+// document.write(laterDate);
+
+
+// // task
+
+// var datee = new Date("June 18, 2015");
+// var date = new Date();
+// var store = date - datee;
+// document.write((parseInt((store) / (1000 * 60 * 60 * 24))) + " days have passed since 1st Ramadan, 2015");
+
+
+// // task
+
+// var dateObj = new Date("2015");
+// var Current = new Date();
+// var randomVariable = Current - dateObj;
+// document.write(parseInt((randomVariable)/(1000 * 60)) + " seconds had passed since the beginning of 2015");
+
+
+// // task
+
+// var current = new Date();
+// document.write("Current Date : " + current + "<br>");
+// current.setHours(current.getHours() - 1);
+// document.write("1 hour ago, it was " + current);
+
+
+// // task
+
+// var current = new Date();
+// document.write("Current Date : " + current + "<br>");
+// current.setFullYear(current.getFullYear() - 100);
+// document.write("100 years back, it was " + current);
+
+
+// // task
+
+// var askUser = window.prompt("Enter Your Age","Iam 18 years old");
+// var dateObject = new Date();
+// var calculation = dateObject.getFullYear() - askUser;
+// document.write("Your Age Is : " + askUser + "<br>" + "Your Birth Year Is : " + calculation);
+
+
+// // task
+
+// var name = window.prompt("Enter Your Name", "My name is");
+// document.write("<h2> K-Electric Bill </h2> ");
+// var units = 820;
+// var charge = 22;
+// var late = 650
+// document.write("Customer Name : <b>" + name + "</b> <br>" + "Month : <b>Apirl</b> <br>" + "Number Of Units : <b>" + units + "</b> <br>" + "Charge per Unit : <b>" + charge + " Pkr</b> <br>");
+// var onDue = units * charge;
+// document.write("<br>Net Amount Payable (within Due Date) Is : <b>" + Math.round(onDue) + "</b><br>" + "Late Payment Charger : <b>" + late + " </b> <br>");
+// var notDue = onDue + late;
+// document.write("Gross Amount Payable (after due date) Is : <b>" + Math.round(notDue) + "</b>");
+
+
+// // task
+
+// function date() {
+//     var currentDate = new Date();
+//     document.write(currentDate);
+// }
+// date();
+
+
+// // task
+
+// function hello(x, y) {
+//     var fullName = x + " " + y;
+//     alert("Hello " + fullName);
+// }
+// var firstName = prompt("Enter Your First Name:");
+// var lastname = prompt("Enter Your Last Name:");
+// hello(firstName,lastname);
+
+
+// // task
+
+// function add(x, y) {
+//     return x + y;
+// }
+// var number1 = +prompt("Enter First Number");
+// var number2 = +prompt("Enter Second Number");
+// var result = add(number1, number2);
+// alert("Sum Of " + number1 + " and " + number2 + " Is : " + result);
+
+
+// // task
+
+// function calculator(x, operator, y) {
+//     if (operator === "+") {
+//         return x + y;
+//     }
+//     else if (operator === "-") {
+//         return x - y;
+//     }
+//     else if (operator === "*") {
+//         return x * y;
+//     }
+//     else if (operator === "/") {
+//         return x / y;
+//     }
+//     else if (operator === "%") {
+//         return x % y;
+//     }
+//     else {
+//         return "Invalid";
+//     }
+// }
+// var number1 = +prompt("Enter First Number");
+// var oper = prompt("Enter Operator Number");
+// var number2 = +prompt("Enter Second Number");
+// var cal = calculator(number1, oper, number2);
+// alert(number1 + " " + oper + " " + number2 + " = " + cal);
+
+
+// task
+
+// function square(num) {
+//     return Math.pow(num, 2);
+// }
+// var user = prompt("Enter Number");
+// var answer = square(user);
+// alert("Square Of " + user + " is : " + answer);
+
+
+// // task
+
+// function factorial(num) {
+//     var a = 1
+//     for (var i = 1; i <= num; i++) {
+//         a *= i
+//     }
+//     document.write("The Factorial Of " + num + " is : " + a);
+// }
+// var input = +prompt("Enter Number");
+// factorial(input);
+
+
+// // task
+
+// function count(first, last) {
+//     for (var i = first; i <= last; i++) {
+//         document.write(i + " ");
+//     }
+// }
+
+// var a1 = +prompt("Enter Start Number");
+// var a2 = +prompt("Enter Last Number");
+// count(a1, a2);
+
+
+// // task
+
+// function calculateHypotenuse(base0, perpendicular0) {
+//     function calculateSquare(n) {
+//         return Math.pow(n, 2);
+//     }
+//     return calculateSquare(base0) + calculateSquare(perpendicular0);
+// }
+// var base = +prompt("Enter Base");
+// var perpendicular = +prompt("Enter Perpendicular");
+// var calcu = calculateHypotenuse(base, perpendicular);
+// document.write("Hypotenuse Is : " + calcu);
+
+
+// // task
+
+// function areaOfReactangle(x, y) {
+//     var result = x * y;
+//     alert("Area Of Reactangle Is : " + result);
+// }
+// var height = 50;
+// var width = 150;
+// areaOfReactangle(10, 22); 
+// areaOfReactangle(height, width); 
+
+
+// // task
+
+// function palindrome(x, y) {
+//     var temp = "";
+//     for (var i = y; i >= 0; i--) {
+//         temp = temp + x[i]
+//     }
+//     if(temp === x){
+//         document.write(x + " Is Palindrome");
+//     }
+//     else{
+//         document.write(x + " Is Not Palindrome");
+//     }
+// }
+// var pal = prompt("Enter Word");
+// len = pal.length - 1;
+// palindrome(pal, len);
+
+
+// // task
+
+// function upperCase(string = "") {
+//     var split = string.toLowerCase().split(" ");
+//     for (var i = 0; i < split.length; i++) {
+//         split[i] = split[i].charAt(0).toUpperCase() + split[i].substring(1);
+//     }
+//     string = split.join(" ");
+//     document.write(string);
+// }
+// var str = "the quick brown fox";
+// upperCase(str);
+
+
+// // task
+
+// function long(str = "") {
+//     var longest = str.split(" ");
+//     var longestWord = 0;
+//     var store = "";
+//     for (var i = 0; i < longest.length; i++) {
+//         if (longest[i].length > longestWord) {
+//             longestWord = longest[i].length;
+//             store = longest[i]
+//         }
+//     }
+//     document.write(store);
+// }
+// long("Web Development Tutorial");
+
+
+// // task
+
+// function Occurence(string = "", letter = "") {
+//     var val = 0;
+//     for (var i = 0; i < string.length; i++) {
+//         if (string.slice(i, i + 1) === letter) {
+//             val++;
+//         }
+//     }
+//     document.write(letter + " appears " + val + " times");
+// }
+
+// Occurence("JSResourceS.com", "o")
+
+
+// // task
+
+// function calculateCircumference(radius) {
+//     var circumference = 2 * Math.PI * radius;
+//     document.write("The Circumference Of Circle Is " + circumference.toFixed(2) + "<br>");
+// }
+// function calculatArea(radius) {
+//     var area = (Math.PI * Math.pow(radius,2));
+//     document.write("The Area Of Circle Is " + area.toFixed(2));
+// }
+// calculateCircumference(10);
+// calculatArea(6);
+
+
+// // task
+
+// var number = +prompt("Enter first number");
+// var power = +prompt("Enter power");
+// function p(num1,power){
+//     var res=Math.pow(num1,power)
+//     document.write(res);
+// }
+
+// p(number,power)
+
+
+// // task
+
+
+// var year = +prompt("Enter year","");
+// function leap(year){
+//     var lastYear = year % 4;
+// if (lastYear==0) {
+//     alert("This is Leap Year");
+// } else {
+//     alert("This is not leap year");
+// }
+// }
+// leap(year);
+
+
+// // task
+
+// var a = +prompt("Enter number");
+// var b = +prompt("Enter number");
+// var c = +prompt("Enter number");
+// function area(a,b,c){
+//     function system(a,b,c){
+//         return a+b+c/2;
+//     }
+//     return system(a,b,c)*(system(a,b,c)-a)*(system(a,b,c)-b)*(system(a,b,c)-c)
+// }
+// document.write(area(a,b,c));
+
+
+// // task
+
+// var m1 = +prompt("Enter marks of first subject","marks out of 100");
+// var m2 = +prompt("Enter marks of second subject","marks out of 100");
+// var m3 = +prompt("Enter marks of third subject","marks out of 100");
+// function main(m1,m2,m3){
+//     var mark=m1+m2+m3;
+//     function permain(mark){
+//         document.write("Percentage " + (mark/300*100).toFixed(2)+"%");
+//     }
+//     function average(mark){
+//         document.write("Average " + (mark/3).toFixed(2));
+//     }
+//     permain(mark);
+//     average(mark);
+// }
+// main(m1,m2,m3);
+
+
+// // task
+
+// var user=prompt("enter sentence","");
+// function rep(user){
+//     for(var i=0;i<user.length;i++){
+//         if(user[i]=="a" || user[i]=="e" || user[i]=="i" || user[i]=="u"){
+//             var b=user.replace(/a|e|i|o|u/g," ");
+//             document.write(b+"<br>"+"<br>");
+//             break;
+//         }
+//     }
+// }
+// rep(user);
+// document.write(user);
